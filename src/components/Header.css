@@ -1,0 +1,6 @@
+.header-title {
+    text-align: center;       /* Center text horizontally */
+    margin: 0;               /* Remove default margin */
+    padding: 10px 0;         /* Optional: Add some vertical padding */
+    width: 100%;             /* Ensure the heading takes full width */
+}

@@ -1,0 +1,58 @@
+
+.popup-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 40px; /* Increased padding for more space inside the popup */
+  width: 800px; /* Increased width of the popup */
+  border-radius: 8px;
+  z-index: 1000;
+  max-height: 95%; /* Optionally, you can set a max height */
+  overflow-y: auto; /* If the content overflows, it will be scrollable */
+}
+
+
+.popup-content h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.popup-content p {
+  margin: 10px 0;
+}
+
+.popup-content hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 15px 0;
+}
+
+.close-btn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Highlighting styles */
+.malicious-yes {
+  color: red;
+  font-weight: bold;
+}
+
+.malicious-no {
+  color: green;
+  font-weight: bold;
+}
+
