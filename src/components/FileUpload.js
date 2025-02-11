@@ -25,7 +25,7 @@ const FileUpload = ({ onUpload }) => {
 
   try {
     // Make a POST request to your backend
-    const response = await fetch("https://finalyrproj-backend.onrender.com", {
+    const response = await fetch("https://finalyrproj-backend.onrender.com/upload", {
       method: "POST",
       body: formData,
     });
