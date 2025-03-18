@@ -47,6 +47,12 @@ input[type="file"] {
   background-color: #45a049;   /* Darker green on hover */
 }
 
+/* Disabled state for the submit button */
+.submit-button:disabled {
+  background-color: #ccc;      /* Gray background when disabled */
+  cursor: not-allowed;         /* Not-allowed cursor when disabled */
+}
+
 .supported-extensions {
   margin-top: 10px;            /* Space above the supported extensions message */
   color: #666;                 /* Color of the message */
@@ -59,4 +65,3 @@ input[type="file"] {
   margin-top: 10px;           /* Space above the error message */
   font-size: 0.9em;           /* Slightly smaller font size */
 }
-
